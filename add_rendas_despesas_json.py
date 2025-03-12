@@ -2,7 +2,7 @@ import json
 
 def criarDicionario():
     nome = input("Nome: ")
-    valor = input("Valor: ")
+    valor = float(input("Valor: "))
     prioridade = input("Prioridade: ") #Utilizado principalmente nas despesas
     x = {
         'nome': nome,
