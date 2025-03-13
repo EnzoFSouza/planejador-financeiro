@@ -24,3 +24,9 @@ print("Total rendas: ", total_rendas)
 
 print(despesas)
 print("Total despesas: ", total_despesas)
+
+restante = total_rendas - total_despesas
+if restante >= 0:
+    print(f"A cada mês, sua renda total supera as despesas em R${restante:.2f}")
+else:
+    print(f"A cada mês, suas despesas superam a renda total em R${abs(restante):.2f}")
